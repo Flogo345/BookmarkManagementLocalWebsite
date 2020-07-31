@@ -1,0 +1,85 @@
+/*import Fonts from google fonts */
+/*@import url('https://fonts.googleapis.com/css2?family=Anton&family=Gugi&family=Lato&family=Roboto&family=Sofia&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Anton|Gugi|Lato|Roboto|Sofia&display=swap');
+
+:root{
+    --primary-color: #259dad;
+    --primary-backcolor: #fce9d6;
+    --light-gray: #2b3032a1;
+    --border: #2b303218;
+    --text-color: #ff686b;
+    --roboto: "Roboto", sans-serif;
+    --gugi: "Gugi", cursive;
+    --sofia: "Sofia", cursive;
+}
+
+.primary-color{
+    color:var(--primary-color);
+}
+
+.bg-primary-color{
+    background-color: var(--primary-color) !important;
+}
+
+.text-color{
+    color: var(--text-color);
+}
+
+.font-roboto{
+    font-family: var(--roboto);
+}
+
+.light-blue{
+    color: lightblue;
+}
+
+/* header */
+
+header{
+    background-color: var(--primary-color);
+    font-family: var(--roboto);
+}
+
+header.site-title{
+    font-family: var(--gugi);
+}
+
+.container.dropdown-toggle,
+.container.dropdown-item{
+    font-size: 0.7em;
+}
+
+.header-links a{
+    font-size: 0.9em;
+    text-decoration: none;
+    color: white;
+}
+
+/* Table */
+
+.my-custom-scrollbar {
+    position: relative;
+    /*height: 15em;*/
+    overflow: auto;
+}
+
+.table-wrapper-scroll-y {
+    display: block;
+}
+
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting:before,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_asc_disabled:before,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_desc:before,
+table.dataTable thead .sorting_desc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:before {
+  bottom: .5em;
+}
+
+.bg-primary-backcolor{
+    background-color: var(--primary-backcolor);
+}

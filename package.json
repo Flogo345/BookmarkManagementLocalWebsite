@@ -1,0 +1,20 @@
+{
+  "name": "BookmarkManagementLocalWebsite",
+  "version": "1.0.0",
+  "description": "Website, which is meant to use localy. It is meant to improve the visibility of many bookmarks and allows to open then within the same page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Flogo345/BookmarkManagementLocalWebsite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Flogo345/BookmarkManagementLocalWebsite/issues"
+  },
+  "homepage": "https://github.com/Flogo345/BookmarkManagementLocalWebsite#readme"
+}
